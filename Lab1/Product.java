@@ -5,7 +5,7 @@ public abstract class Product {
     private double price;
     private String name;
     private static int quantity;
-    public double weight;
+    private double weight;
 
     public Product(int id, double price, String name, double weight){
       this.id = id;
