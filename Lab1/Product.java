@@ -5,13 +5,14 @@ public abstract class Product {
     private double price;
     private String name;
     private static int quantity;
-    
+
     public Product(int id, double price, String name){
       this.id = id;
       this.price = price;
       this.name = name;
       Product.quantity ++;
     }
+
     public void applySaleDiscount(double percentage){
       this.price = this.price - ((percentage/100) * this.price);
     }

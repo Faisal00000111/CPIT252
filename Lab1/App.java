@@ -14,7 +14,7 @@ public class App{
     products[0] = p1;
     products[1] = p2;
     products[2] = p3;
-    
+    Order o1 = new Order(p3, 1, "complete");
     for (Product  p: products) {
         System.out.println(p.toString());
     }
