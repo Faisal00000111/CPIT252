@@ -4,7 +4,7 @@ public class Order {
     private Product p;
     private int orderID;
     private String orderStatus;
-    
+
     public Order(Product p, int orderID, String orderStatus) {
         this.p = p;
         this.orderID = orderID;
@@ -34,5 +34,5 @@ public class Order {
     public void setOrderStatus(String orderStatus) {
         this.orderStatus = orderStatus;
     }
-    
+
 }
